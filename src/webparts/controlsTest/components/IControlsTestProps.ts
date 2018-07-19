@@ -1,5 +1,4 @@
 import { WebPartContext } from '@microsoft/sp-webpart-base';
-import { ImageSize } from '../../../FileTypeIcon';
 import { DisplayMode } from '@microsoft/sp-core-library';
 
 export interface IControlsTestProps {
@@ -11,8 +10,4 @@ export interface IControlsTestProps {
 }
 
 export interface IControlsTestState {
-  imgSize: ImageSize;
-  items: any[];
-  initialValues: any[];
-  iFrameDialogOpened?: boolean;
 }
